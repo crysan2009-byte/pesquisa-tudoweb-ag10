@@ -1,17 +1,16 @@
 # Atividade ETEC - Pesquisa TudoWeb
 # Aluno: Crysan
-# Professor: Python
-# Pesquisa com 10 entrevistados
+# Pesquisa com 50 entrevistados
 
 def pesquisa_tudoweb():
     qtd_excelente = 0
     qtd_bom = 0
     qtd_ruim = 0
 
-    print("--- PESQUISA TUDOWEB - 10 ENTREVISTADOS ---\n")
+    print("--- PESQUISA TUDOWEB - 50 ENTREVISTADOS ---\n")
 
-    for i in range(1, 11):
-        print(f"--- Entrevistado {i}/10 ---")
+    for i in range(1, 51):
+        print(f"--- Entrevistado {i}/50 ---")
 
         nome = input("Nome: ")
         idade = int(input("Idade: "))
